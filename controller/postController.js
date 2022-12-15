@@ -233,9 +233,9 @@ module.exports.getAllPosts = async function getAllPosts(req, res) {
             posts.push(post);
         }
 
-        posts.sort((a, b) => {
-            return a.createdTime < b.createdTime;
-        })
+        // posts.sort((a, b) => {
+        //     return a.createdTime < b.createdTime;
+        // })
 
         console.log(posts)
 
